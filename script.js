@@ -36,7 +36,7 @@ const whereAmI = function() {
         latitude: lat,
         longitude: lng
       } = pos.coords;
-      return fetch(`https://geocode.xyz/${lat},${lng}?geoit=json&auth=12048250838410237075x70472`)
+      return fetch(`https://geocode.xyz/${lat},${lng}?geoit=json&auth=14406727700812e15917873x5516`)
     })
     .then(res => {
       if (!res.ok) throw new Error(`problem with geocoding ${res.status}`);
